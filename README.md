@@ -18,7 +18,7 @@ Sigue estos pasos para instalar y ejecutar el proyecto en tu máquina local.
 
 2. **Navega al directorio del proyecto**:
     ```bash
-    cd tu-repositorio
+    cd ...
     ```
 
 3. **Instala las dependencias**:
@@ -35,16 +35,9 @@ Sigue estos pasos para instalar y ejecutar el proyecto en tu máquina local.
 
 2. **Abre tu navegador y navega a** `http://localhost:3000` **para ver la aplicación en funcionamiento**.
 
-## Estructura del Proyecto
+## Estructura del Proyecto 
 
 - `/public`: Contiene los archivos HTML y CSS.
-  - `index.html`: Página de inicio.
-  - `login.html`: Página de inicio de sesión.
-  - `register.html`: Página de registro.
-  - `styles.css`: Archivo de estilos globales.
-  - `login.css`: Archivo de estilos para la página de inicio de sesión.
-- `/Imagenes`: Contiene las imágenes utilizadas en la aplicación.
-  - `edificio.png`: Imagen utilizada en la página de inicio.
 - `app.js`: Archivo principal del servidor Node.js.
 - `database.db`: Archivo de la base de datos SQLite.
 - `package.json`: Archivo de configuración de npm.
@@ -52,7 +45,8 @@ Sigue estos pasos para instalar y ejecutar el proyecto en tu máquina local.
 ## Navegación
 
 - **Menú**: En todas las páginas, el enlace "Menú" te llevará a la página de inicio.
-- **Propiedades**: Próximamente.
-- **¿Quieres arrendar tu propiedad?**: Próximamente.
+- **Propiedades**: Lista de las propiedades en arriendo y en venta.
+- **¿Quieres arrendar tu propiedad?**: Formulario para ingresar una propiedad.
 - **Contacto**: Página de contacto.
-- **Sign up**: Enlace para registrarse.
+- **Login**: Enlace para iniciar sesión.
+- **Register**: Enlace para registrarse y que se guarde en la base de datos.
