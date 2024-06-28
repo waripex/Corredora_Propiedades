@@ -38,73 +38,58 @@ nav .nav-links li a {
 
 main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 80vh;
-    background-color: #e2ebf0;
+    justify-content: center;
+    padding: 2rem;
 }
 
-.login-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.property-registration-form {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    width: 80%;
-    max-width: 800px;
-    padding: 20px;
-}
-
-.login-image img {
-    max-width: 300px; /* Ajusta este valor para cambiar el tamaño máximo de la imagen */
-    height: auto;
-    margin-right: 20px; /* Espacio entre la imagen y el formulario */
-}
-
-.login-form {
     padding: 2rem;
-    flex: 1;
-    max-width: 400px;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.login-form h2 {
+.form-section {
     margin-bottom: 1rem;
-    font-size: 1.5rem;
+    width: 48%;
 }
 
-.login-form label {
+.form-section label {
     display: block;
-    margin-bottom: 0.5rem;
     font-weight: bold;
+    margin-bottom: 0.5rem;
 }
 
-.login-form input {
+.form-section input,
+.form-section select {
     width: 100%;
     padding: 0.5rem;
-    margin-bottom: 1rem;
     border: 1px solid #ccc;
     border-radius: 4px;
+    margin-bottom: 0.5rem;
 }
 
-.login-form button {
-    width: 100%;
-    padding: 0.75rem;
-    background-color: #000;
+.form-section .assistive-text {
+    font-size: 0.875rem;
+    color: #888;
+}
+
+button[type="submit"] {
+    background-color: #20c997;
     color: #fff;
+    padding: 0.75rem 1.5rem;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-}
-
-.login-form p {
-    text-align: center;
-    margin-top: 1rem;
-}
-
-.login-form p a {
-    color: #000;
-    text-decoration: none;
-    font-weight: bold;
+    font-size: 1rem;
+    align-self: center;
+    width: 100%;
+    max-width: 200px;
 }

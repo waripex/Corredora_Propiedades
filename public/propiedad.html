@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Propiedad</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <h1>REGISTRO DE PROPIEDAD</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Menú</a></li>
+                    <li><a href="#">Propiedades</a></li>
+                    <li><a href="registro.html">¿Quieres arrendar tu propiedad?</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                    <li><a href="#">Search here...</a></li>
+                    <li><a href="#">@ email@mail.com</a></li>
+                    <li><a href="#">(000) 888-88</a></li>
+                    <li><a href="register.html" class="btn-signup">Sign up</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>REGISTRO DE PROPIEDAD</h1>
+        <form class="property-registration-form">
+            <div class="form-section">
+                <label for="owner-name">Nombre del Propietario</label>
+                <input type="text" id="owner-name" name="owner-name" placeholder="Type here">
+                <span class="assistive-text">Assistive Text</span>
+            </div>
+            <div class="form-section">
+                <label for="id-document">Documento de Identidad</label>
+                <input type="text" id="id-document" name="id-document" placeholder="Typing">
+                <span class="assistive-text">Assistive Text</span>
+            </div>
+            <div class="form-section">
+                <label for="phone-number">Número Celular</label>
+                <input type="text" id="phone-number" name="phone-number" placeholder="Typing">
+                <span class="assistive-text">Error message informing me of a problem</span>
+            </div>
+            <div class="form-section">
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" name="email" placeholder="Typing">
+                <span class="assistive-text">Assistive Text</span>
+            </div>
+            <div class="form-section">
+                <label for="region">Región</label>
+                <select id="region" name="region">
+                    <option value="option1">Dropdown option</option>
+                    <!-- Agregar más opciones según sea necesario -->
+                </select>
+            </div>
+            <div class="form-section">
+                <label for="commune">Comuna</label>
+                <select id="commune" name="commune">
+                    <option value="san-salvador">San Salvador</option>
+                    <!-- Agregar más opciones según sea necesario -->
+                </select>
+            </div>
+            <div class="form-section">
+                <label for="property-type">Tipo de Vivienda</label>
+                <select id="property-type" name="property-type">
+                    <option value="casa">Casa</option>
+                    <option value="departamento">Departamento</option>
+                    <option value="habitacion">Habitación</option>
+                    <option value="residencia-estudiantil">Residencia Estudiantil</option>
+                </select>
+            </div>
+            <button type="submit">Verificar Datos</button>
+        </form>
+    </main>
+</body>
+</html>
