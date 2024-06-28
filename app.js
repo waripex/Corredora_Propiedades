@@ -37,6 +37,10 @@ app.get('/', (req, res) => {
     res.redirect('/login');
 });
 
+app.get('/casas', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'casas.html'));
+});
+
 app.get('/propiedad', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'propiedad.html'));
 });

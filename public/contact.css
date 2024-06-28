@@ -1,0 +1,129 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #b7ded2;
+    padding: 1rem 0;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo h1 {
+    font-size: 1.5rem;
+    color: #000;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav .nav-links li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.875rem;
+}
+
+/* Estilos para la sección de contacto */
+.contact-section {
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+.contact-container > div {
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.contact-logo h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact-logo p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-logo img {
+    max-width: 50px;
+    margin-top: 1rem;
+}
+
+.contact-links ul,
+.contact-help ul {
+    list-style: none;
+}
+
+.contact-links ul li,
+.contact-help ul li {
+    margin-bottom: 0.5rem;
+}
+
+.contact-links ul li a,
+.contact-help ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.contact-address p {
+    margin-bottom: 1rem;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 0.5rem;
+}
+
+.newsletter-form {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.newsletter-form input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+}
+
+.newsletter-form button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #ff4d4d;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+    margin-top: 2rem;
+}
