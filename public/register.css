@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #e2ebf0;
+    padding: 1rem 0;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo h1 {
+    font-size: 1.5rem;
+    color: #000;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav .nav-links li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.875rem;
+}
+
+nav .nav-links li .btn-signup {
+    background-color: #ff4d4d;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+    background-color: #f7f9fc;
+}
+
+.home-container, .login-container, .register-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.home-content {
+    flex: 1;
+    margin-right: 2rem;
+}
+
+.home-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.home-content p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.home-content .btn {
+    background-color: #ff4d4d;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.home-image img, .login-image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.login-form, .register-container {
+    padding: 2rem;
+    flex: 1;
+    max-width: 400px;
+}
+
+.login-form h2, .register-container h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.login-form label, .register-container label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.login-form input, .register-container input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-form button, .register-container button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-form p, .register-container p {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.login-form p a, .register-container p a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}

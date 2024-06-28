@@ -4,16 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Inicio</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="container">
-        <h1 class="mt-5">Bienvenidos a Mi Proyecto</h1>
-        <p>Esta es la página de inicio.</p>
-        <a href="/about" class="btn btn-primary">Sobre Nosotros</a>
-        <a href="/contact" class="btn btn-secondary">Contacto</a>
-        <a href="/login" class="btn btn-success">Iniciar Sesión</a>
-        <a href="/register" class="btn btn-warning">Registrarse</a>
-    </div>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <h1>coDev</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Menú</a></li>
+                    <li><a href="#">Propiedades</a></li>
+                    <li><a href="#">¿Quieres arrendar tu propiedad?</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                    <li><a href="#">Search here...</a></li>
+                    <li><a href="#">@ email@mail.com</a></li>
+                    <li><a href="#">(000) 888-88</a></li>
+                    <li><a href="register.html" class="btn-signup">Sign up</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="home-container">
+            <div class="home-content">
+                <h1>Propiedades a un CLIC</h1>
+                <p>Revisa las propiedades que tenemos publicadas para ti. Encuentra tu mejor inversión.</p>
+                <button class="btn btn-primary">Buscar</button>
+            </div>
+            <div class="home-image">
+                <img src="../Imagenes/edificio.png" alt="Edificio">
+            </div>
+        </div>
+    </main>
 </body>
 </html>
